@@ -25,7 +25,7 @@ sea-orm = { version = "0.12", features = [
 ] }
 tracing-subscriber = { version = "0.3", features = ["env-filter"] }
 blockscout-service-launcher = { workspace = true, features = [ "database-0_12" ] }
-blockscout-endpoint-swagger = { git = "https://github.com/blockscout/blockscout-rs", rev = "0d01bdf7" }
+blockscout-endpoint-swagger = { git = "https://github.com/pellartech/blockscout-rs", rev = "0d01bdf7" }
 blockscout-client = { workspace = true }
 cron = "0.12"
 convert_case = "0.6.0"
