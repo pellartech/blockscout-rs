@@ -1,4 +1,4 @@
-FROM ghcr.io/blockscout/services-base:latest AS chef
+FROM local/services-base:latest AS chef
 
 FROM chef AS plan
 COPY . .

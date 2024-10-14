@@ -22,7 +22,7 @@ url = "2.4.0"
 governor = "0.5.1"
 once_cell = "1.18.0"
 pretty_assertions = "1.3.0"
-reqwest-rate-limiter = { git = "https://github.com/blockscout/blockscout-rs", rev = "13ef4e8" }
+reqwest-rate-limiter = { git = "https://github.com/pellartech/blockscout-rs", rev = "13ef4e8" }
 tokio = { version = "1.28.2", features = ["macros"]}
 
 [features]

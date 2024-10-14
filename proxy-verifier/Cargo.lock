@@ -531,7 +531,7 @@ dependencies = [
 [[package]]
 name = "blockscout-client"
 version = "0.1.0"
-source = "git+https://github.com/blockscout/blockscout-rs/?rev=5d091b6e#5d091b6ee5d3a411379bb6bfe2896fa2e3cb194f"
+source = "git+https://github.com/pellartech/blockscout-rs/?rev=5d091b6e#5d091b6ee5d3a411379bb6bfe2896fa2e3cb194f"
 dependencies = [
  "anyhow",
  "chrono",
@@ -1003,7 +1003,7 @@ dependencies = [
 [[package]]
 name = "eth-bytecode-db-proto"
 version = "0.1.0"
-source = "git+https://github.com/blockscout/blockscout-rs/?rev=93dc74f3#93dc74f37bc5a3477dedc84bb227399fb5d1b591"
+source = "git+https://github.com/pellartech/blockscout-rs/?rev=93dc74f3#93dc74f37bc5a3477dedc84bb227399fb5d1b591"
 dependencies = [
  "actix-prost",
  "actix-prost-build",

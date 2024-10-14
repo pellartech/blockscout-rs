@@ -8,7 +8,7 @@ edition = "2021"
 [dependencies]
 user-ops-indexer-entity = { path = "../user-ops-indexer-entity" }
 user-ops-indexer-proto = { path = "../user-ops-indexer-proto" }
-blockscout-db = { git = "https://github.com/blockscout/blockscout-rs", rev = "bb2eb15" }
+blockscout-db = { git = "https://github.com/pellartech/blockscout-rs", rev = "bb2eb15" }
 
 atoi = "2.0.0"
 anyhow = "1.0"

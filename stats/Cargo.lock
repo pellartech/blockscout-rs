@@ -797,7 +797,7 @@ dependencies = [
 [[package]]
 name = "blockscout-client"
 version = "0.1.1"
-source = "git+https://github.com/blockscout/blockscout-rs/?rev=506b821#506b8219d6cb8be69e1ed373759b66e8d566c89d"
+source = "git+https://github.com/pellartech/blockscout-rs/?rev=506b821#506b8219d6cb8be69e1ed373759b66e8d566c89d"
 dependencies = [
  "derive-new",
  "reqwest 0.12.5",
@@ -813,7 +813,7 @@ dependencies = [
 [[package]]
 name = "blockscout-db"
 version = "5.0.0"
-source = "git+https://github.com/blockscout/blockscout-rs?rev=fd205eb1#fd205eb143d4fbbf05fe9e92a4f5c5eab27663e3"
+source = "git+https://github.com/pellartech/blockscout-rs?rev=fd205eb1#fd205eb143d4fbbf05fe9e92a4f5c5eab27663e3"
 dependencies = [
  "blockscout-db-entity",
  "blockscout-db-migration",
@@ -822,7 +822,7 @@ dependencies = [
 [[package]]
 name = "blockscout-db-entity"
 version = "5.0.0"
-source = "git+https://github.com/blockscout/blockscout-rs?rev=fd205eb1#fd205eb143d4fbbf05fe9e92a4f5c5eab27663e3"
+source = "git+https://github.com/pellartech/blockscout-rs?rev=fd205eb1#fd205eb143d4fbbf05fe9e92a4f5c5eab27663e3"
 dependencies = [
  "sea-orm",
 ]
@@ -830,7 +830,7 @@ dependencies = [
 [[package]]
 name = "blockscout-db-migration"
 version = "5.0.0"
-source = "git+https://github.com/blockscout/blockscout-rs?rev=fd205eb1#fd205eb143d4fbbf05fe9e92a4f5c5eab27663e3"
+source = "git+https://github.com/pellartech/blockscout-rs?rev=fd205eb1#fd205eb143d4fbbf05fe9e92a4f5c5eab27663e3"
 dependencies = [
  "async-std",
  "sea-orm-migration",
@@ -839,7 +839,7 @@ dependencies = [
 [[package]]
 name = "blockscout-endpoint-swagger"
 version = "0.1.0"
-source = "git+https://github.com/blockscout/blockscout-rs?rev=0d01bdf7#0d01bdf79e2798c9f74f9690cc5ac5cbc03b39c6"
+source = "git+https://github.com/pellartech/blockscout-rs?rev=0d01bdf7#0d01bdf79e2798c9f74f9690cc5ac5cbc03b39c6"
 dependencies = [
  "actix-files",
  "actix-web",
@@ -848,7 +848,7 @@ dependencies = [
 [[package]]
 name = "blockscout-metrics-tools"
 version = "0.1.0"
-source = "git+https://github.com/blockscout/blockscout-rs?rev=980634e#980634e7adb53eb1de2c27edf13016631957cb89"
+source = "git+https://github.com/pellartech/blockscout-rs?rev=980634e#980634e7adb53eb1de2c27edf13016631957cb89"
 
 [[package]]
 name = "blockscout-service-launcher"
@@ -1468,7 +1468,7 @@ dependencies = [
 [[package]]
 name = "env-collector"
 version = "0.1.1"
-source = "git+https://github.com/blockscout/blockscout-rs?rev=20b179a#20b179a444f1c6c26ad3d17aa97908ca16aeaf72"
+source = "git+https://github.com/pellartech/blockscout-rs?rev=20b179a#20b179a444f1c6c26ad3d17aa97908ca16aeaf72"
 dependencies = [
  "anyhow",
  "config 0.14.0",

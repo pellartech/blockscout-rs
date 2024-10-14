@@ -3,7 +3,7 @@ name = "smart-contract-verifier"
 version = "0.6.0"
 # authors = [""]
 edition = "2021"
-repository = "https://github.com/blockscout/blockscout-rs"
+repository = "https://github.com/pellartech/blockscout-rs"
 keywords = ["ethereum", "web3", "solidity"]
 
 [dependencies]
@@ -39,7 +39,7 @@ serde_json = "1"
 serde_with = "2"
 sha2 = "0.10"
 solidity-metadata = "1.1.0"
-sourcify = { git = "https://github.com/blockscout/blockscout-rs", rev = "c4261d0" }
+sourcify = { git = "https://github.com/pellartech/blockscout-rs", rev = "c4261d0" }
 sscanf = "0.3"
 tempfile = "3.3"
 thiserror = "1.0"

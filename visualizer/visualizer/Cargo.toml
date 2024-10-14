@@ -2,7 +2,7 @@
 name = "visualizer"
 version = "0.1.0"
 edition = "2021"
-repository = "https://github.com/blockscout/blockscout-rs/sol_to_uml"
+repository = "https://github.com/pellartech/blockscout-rs/sol_to_uml"
 
 [dependencies]
 anyhow = "1.0"

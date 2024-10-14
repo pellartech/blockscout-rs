@@ -4827,7 +4827,7 @@ dependencies = [
 [[package]]
 name = "sig-provider-proto"
 version = "0.1.0"
-source = "git+https://github.com/blockscout/blockscout-rs#ee5a2358e10e0002f044c1fbe2560095d4b1a93b"
+source = "git+https://github.com/pellartech/blockscout-rs#3c92dc9a6043175be9ab0113f900b4b8c0c6287f"
 dependencies = [
  "actix-prost 0.1.0 (git+https://github.com/blockscout/actix-prost)",
  "actix-prost-build 0.1.0 (git+https://github.com/blockscout/actix-prost)",
@@ -5053,7 +5053,7 @@ dependencies = [
 [[package]]
 name = "sourcify"
 version = "0.1.0"
-source = "git+https://github.com/blockscout/blockscout-rs?rev=c4261d0#c4261d0f7bec3c250a979b416ed48ab13853c9d6"
+source = "git+https://github.com/pellartech/blockscout-rs?rev=c4261d0#c4261d0f7bec3c250a979b416ed48ab13853c9d6"
 dependencies = [
  "anyhow",
  "blockscout-display-bytes",
@@ -5859,7 +5859,7 @@ checksum = "accd4ea62f7bb7a82fe23066fb0957d48ef677f6eeb8215f372f52e48bb32426"
 [[package]]
 name = "verification-common"
 version = "0.1.0"
-source = "git+https://github.com/blockscout/blockscout-rs/?rev=bd6352d#bd6352d6cf777030acd08f3d40960c635ca91713"
+source = "git+https://github.com/pellartech/blockscout-rs/?rev=bd6352d#bd6352d6cf777030acd08f3d40960c635ca91713"
 dependencies = [
  "alloy-dyn-abi 0.7.7",
  "alloy-json-abi 0.7.7",

@@ -14,12 +14,12 @@ async-trait = "0.1"
 blockscout-display-bytes = "1.0.0"
 blockscout-service-launcher = { version = "0.9.0", features = ["database-0_12"] }
 config = "0.13.3"
-eth-bytecode-db-proto = { git = "https://github.com/blockscout/blockscout-rs", rev = "6977d09" }
+eth-bytecode-db-proto = { git = "https://github.com/pellartech/blockscout-rs", rev = "6977d09" }
 futures = "0.3"
 governor = "0.5.1"
 reqwest = "0.11"
 reqwest-middleware = "0.2"
-reqwest-rate-limiter = { git = "https://github.com/blockscout/blockscout-rs", rev = "edb610b" }
+reqwest-rate-limiter = { git = "https://github.com/pellartech/blockscout-rs", rev = "edb610b" }
 reqwest-retry = "0.2"
 scraper = "0.16.0"
 sea-orm = "0.12.3"
